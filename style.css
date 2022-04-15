@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap");
+body {
+  font-family: "League Spartan", sans-serif;
+  font-weight: bold;
+  background: #fff;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  /* overflow: scroll; */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+  margin-left: 60%;
+  margin-top: -4%;
+  background: transparent;
+}
+.img {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+img {
+  margin-left: 4%;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  float: left;
+}
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 14px 19px;
+  display: block;
+  padding-left: 59px;
+}
+.bg {
+  background: linear-gradient(135deg, #683ba0 10%, #4a088b 100%);
+  height: 544px;
+  width: 100%;
+  /*margin-left: -100px;
+    margin-top: -100px; */
+}
+.text {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.btn {
+  padding: 10px;
+  position: relative;
+  letter-spacing: 2px;
+  border: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.btn:hover{
+    color: #683ba0;
+  border: 2px solid #ffffff;
+  background: #fff;
+}
+
+.image {
+    margin-left: 60%;
+    margin-top: -21%;
+    width: 400px;
+}
+.img-i {
+    width: 420px;
+}
+.box-1 {
+    padding: 4%;
+    color: #000;
+    width: 20%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 3%;
+}
+.box-2 {
+    padding: 4%;
+    color: #000;
+    width: 20%;
+    margin-left: 34%;
+    text-align: center;
+    margin-top: -35%;
+}
+.box-3 {
+    padding: 4%;
+    color: #000;
+    width: 20%;
+    margin-left: 60%;
+    text-align: center;
+    margin-top: -35%;
+}
+.w-l {
+    text-align: center;
+}

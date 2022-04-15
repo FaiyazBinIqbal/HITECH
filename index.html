@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Hitech - Since 2022</title>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="img">
+        <img
+          src="SINCE_2022__2_-removebg-preview.png   "
+          alt=""
+          width="200px"
+        />
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="text">
+        <h1 class="header">
+          We Can Teach you any kind of <br />
+          programming language
+        </h1>
+        <p class="slogan">We Have Best Tutor</p>
+        
+          <a class="btn">Contact us</a>
+        
+      </div>
+      <div class="image">
+        <img class="img-i" src="abstract-blockchain-background_23-2147850235 (1).png" alt="">
+      </div>
+    </div>
+    <div class="boxes">
+    <h1 class="w-l">We Learn</h1>
+    <div class="box-1">
+      <h2>1</h2>
+      <img src="732212.png" width="100px">
+      <h2 style="text-transform: uppercase; letter-spacing: 2px;">html</h2>
+      <p style="font-size: larger;">The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript</p>
+    </div>
+    <div class="box-2">
+      <h2>2</h2>
+      <img src="932212.png" width="100px">
+      <h2 style="text-transform: uppercase; letter-spacing: 2px;">css</h2>
+      <p style="font-size: larger;">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript</p>
+    </div>
+    <div class="box-3">
+      <h2>3</h2>
+      <img src="432212.png" width="100px">
+      <h2 style="text-transform: uppercase; letter-spacing: 2px;">js</h2>
+      <p style="font-size: larger;">JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries</p>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function (e) {
+        $(".btn").on("mouseenter", function (e) {
+          x = e.pageX - $(this).offset().left;
+          y = e.pageY - $(this).offset().top;
+          $(this).find("span").css({ top: y, left: x });
+        });
+        $(".btn").on("mouseout", function (e) {
+          x = e.pageX - $(this).offset().left;
+          y = e.pageY - $(this).offset().top;
+          $(this).find("span").css({ top: y, left: x });
+        });
+      });
+    </script>
+  </body>
+</html>
